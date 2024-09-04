@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    /* background-color: black; */
+}
+
+body{
+    scroll-behavior: smooth;
+}
+/* navbar section start */
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+
+.group1,.group2,.group3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar i{
+    font-size: 50px;
+}
+h4{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.group2 h4:hover{
+    text-decoration: underline;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.group3 button{
+    padding: 8px 20px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.group3 button:hover{
+    background-color: #1f1e1e;
+}
+
+/* navbar section end */
+
+/* hero section start */
+.hero{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+
+}
+
+.hero-left{
+    width: 70%;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.hero-right{
+    width: 30%;
+    height: 100%;
+}
+
+.hero-right img{
+    height: 100%;
+}
+
+.hero-left h4{
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1;
+}
+.dev{
+    font-size: 85px;
+    color: transparent;
+    font-family: "Protest Guerrilla", sans-serif;
+    -webkit-text-stroke: 0.5px white; 
+}
+
+.hero-left p{
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    font-size: 20px;
+    height: 20vh;
+}
+
+.social{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: end;
+    gap: 30px;
+}
+
+.s-icon{
+    height: 80px;
+    width: 80px;
+    /* background-color: aqua; */
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-icon i{
+    font-size: 40px;
+}
+
+.s-icon:hover{
+    background-color: black;
+    color: white;
+}
+
+.s-icon:hover i{
+    font-size: 50px ;
+}
+
+/* hero section end */
+
+/* skill section start */
+.heading{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h2{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.heading h2 span{
+    font-weight: 700;
+}
+
+.card-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+    gap: 20px;
+}
+.card{
+    height: 220px;
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 15px black;
+}
+
+.card i{
+    font-size: 160px;
+}
+
+.card h3{
+    width: 100%;
+    height: 25%;
+    font-size: 25px;
+    border-radius: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+    background-color: white;
+}
+
+/* skill section end*/
+/* my experiance start */
+.my-experiance{
+    background-color: black;
+    color: white;
+}
+
+.exp-cardwrapper{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.exp-card{
+    width: 80%;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.exp-card div{
+    /* height: 50px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.exp-card p{
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.exp-card:hover{
+    background-color: #a2a2a2;
+    color: black;
+    box-shadow: 0px 0px 15px rgb(111, 206, 244);
+}
+/* my experiance end */
+
+/* about section start */
+.about{
+    height: 100vh;
+    background-color: white;
+    color: black;
+}
+
+.about-left{
+    width: 35%;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.about-right{
+    width: 65%;
+    height: 100%;
+}
+
+.about-left img{
+    height: 100%;
+}
+
+.about-right p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+/* about section end */
+
+/* my project section start */
+.my-project{
+    background-color: black;
+    color: white;
+}
+
+.project-wrapper{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project{
+    height: 60vh;
+    width: 90%;
+    /* background-color: burlywood; */
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    overflow: hidden;
+}
+
+.project-img{
+    height: 80%;
+    width: 40%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.project-img:hover{
+    box-shadow: 0px 0px 15px rgb(111, 206, 244);
+}
+
+.project-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.project-text{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project-text h1{
+    font-size: 45px;
+}
+
+.project-text i:hover{
+    cursor: pointer;
+}
+
+.project-link{
+    color: white;
+}
+
+/* my project section end */
+
+/* contact us start */
+
+.contact-us{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-wrapper{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.contact-form{
+    height: 100%;
+    width: 50%;
+}
+
+.contact-text{
+    height: 100%;
+    width: 50%;
+}
+
+.contact-form form input, .contact-form form textarea{
+    height: 60px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+textarea{
+    height: 140px !important;
+    width: 80% !important;
+}
+
+.contact-form form input::placeholder{
+    font-size: 20px;
+}
+
+
+
+.s-form{
+    height: 70px ;
+    display: flex;
+    align-items: center;
+}
+
+.s-form .s-icon{
+    height: 50px;
+    width: 50px;
+}
+
+.social button{
+    height: 60px;
+    width: 200px;
+    padding: 10px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px ;
+    outline: none;
+    cursor: pointer;
+}
+
+.social button:hover{
+    background-color: #1f1e1e;
+}
+
+.contact-img{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.contact-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+/* contact us end */
+
+/* footer css start */
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 15vh;
+}
+
+.f-gp1{
+    width: 70%;
+}
+
+.f-gp2{
+    width: 20%;
+    height: 100%;
+    padding: 10px 0;
+} 
+
+/* footer css end */
